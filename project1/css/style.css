@@ -1,0 +1,1484 @@
+/* mobile screen */
+@media screen and (max-width: 530px){
+
+
+nav li{
+    list-style-type:none;
+    display: inline-block;
+
+    
+}
+
+nav a{
+    text-decoration: none;
+    color:black;
+    padding: 1em;
+}
+
+.home_nav a{
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+
+}
+
+a:hover{
+    color: #4054b2;
+}
+a:active{
+    color: #4054b2;
+}
+
+header{
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+}
+
+.container h2{
+    
+    color: #4054b2;
+    text-shadow: 1.5px 1.5px 1px black;
+
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+.link_design{
+    display: block;
+    width: 50%;
+    background-color: rgb(64, 84, 178, 0.9);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+
+    padding: 1em;
+    text-align: center;
+    border-radius: 0.5em;
+}
+.link_design a{
+    color: white;
+
+} 
+.box1-image{
+    width: 100%;
+}
+.box1-image img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.header_style{
+    background-image: url("../image/Slink-Digital-Technologies.jpg");
+    width: 100%;
+
+    height: 500px;
+}
+
+.quote{
+    padding-left: 5em;
+}
+
+.home{
+    padding-left: 15em;
+}
+
+.header-bg{
+    background-color: #4054b2;
+    width: 100%;
+    height: auto;
+
+
+
+}
+
+.header-text, .header-text h1{
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    word-break: break-all;
+    
+}
+
+
+
+label{
+    text-transform: uppercase;
+}
+
+input:checked + :hover{
+    color: brown;
+
+} 
+
+
+
+/* Content after header */
+
+.container h2{
+    text-align: center;
+    word-break: break-all;
+
+}
+
+.container a{
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.box2 h2{
+    text-transform: uppercase;
+    color: black;
+    font-weight: 0.1em;
+
+}
+.box2-content{
+    width: 100%;
+}
+.box2-content img{
+    display: block;
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content{
+    width: 100%;
+    
+}
+
+#media{
+    font-size: 10em;
+
+}
+.box2 h3{
+    word-break: break-all;
+    font-weight: 10em;
+}
+.item{
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.item img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* list does not have the styling again */
+li{
+    list-style-type: none;
+}
+
+.a{
+    width: 100%;
+    
+}
+.client{
+    width: 100%;
+    /* display: flex; */
+}
+
+.left{
+    width: 50%;
+}
+
+.right{
+    width: 50%;
+}
+
+.box4{
+    border: 0.1em solid black;
+    padding: 1.5em;
+    color: white;
+    background-color:#01425e;
+}
+
+.box4-link{
+
+    border:0.1em solid #6EC1E4;
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: block;
+    text-align: center;
+    
+
+
+}
+.box4-link a{
+    color: #6EC1E4;
+
+}
+
+.box4-rotate{
+    
+}
+
+ .join-team{
+    width: 100%;
+    margin-top: 1em;
+
+}
+
+.team-image, .team-text{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: flex;
+}
+
+.team-text{
+    padding-right: 1em;
+    width: 50%;
+}
+
+.box7{
+    width: 100%;
+  
+}
+.box71{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.center,.box7-content{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+footer{
+    width: 100%;
+}
+
+.foot-add{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.footer-content{
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#01425e;
+    color: white;
+    width: 100%;
+
+}
+
+footer{
+    
+    
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover footer{
+    color: #4054b2;
+}
+/* .footer-content{
+    display:flex;
+    width: 100%;
+
+} */
+/* .left{
+    width: 50%;
+}
+.right{
+    width: 50%;
+
+} */
+
+}
+
+/* Tablet Screen */
+
+@media screen and (min-width:321px) and ( max-width:768px)
+ {
+    
+    nav li{
+        list-style-type:none;
+        display: inline-block;
+    
+        
+    }
+    
+    nav a{
+        text-decoration: none;
+        color:black;
+        padding: 1em;
+    }
+
+    .home_nav a{
+        text-decoration: none;
+        color: black;
+        padding: 1em;
+
+    }
+
+    a:hover{
+        color: #4054b2;
+    }
+    a:active{
+        color: #4054b2;
+    }
+
+    
+    header{
+        background-color: white;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .container h2{
+    
+        color: #4054b2;
+        text-shadow: 1.5px 1.5px 1px black;
+    
+        font-size: 2em;
+        font-weight: bold;
+    }
+    
+    .link_design{
+        display: block;
+        width: 50%;
+        background-color: rgb(64, 84, 178, 0.9);
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1em;
+    
+        padding: 1em;
+        text-align: center;
+        border-radius: 0.5em;
+    }
+    .link_design a{
+        color: white;
+    
+    } 
+    
+
+    .header_style{
+        background-image: url("../image/Slink-Digital-Technologies.jpg");
+        width: 100%;
+        
+        height: 500px;
+    }
+    
+    .quote{
+        padding-left: 5em;
+    }
+    
+    .home{
+        padding-left: 15em;
+    }
+    
+    .header-bg{
+        background-color: #4054b2;
+        width: 100%;
+        height: auto;
+    
+    
+    
+    }
+    
+    .header-text, .header-text h1{
+        color: white;
+        font-size: 1.5em;
+        font-weight: bold;
+        text-align: center;
+        word-break: break-all;
+        
+    }
+    
+    .header-image{
+    
+        
+    
+    }
+    
+    .header-button{
+        
+    }
+    
+    label{
+        text-transform: uppercase;
+    }
+    
+    
+    /* Content after header */
+    
+    .container h2{
+        text-align: center;
+        word-break: break-all;
+    
+    }
+    
+    .container a{
+        text-decoration: none;
+        margin-left: auto;
+        margin-right: auto;
+    
+    
+    }
+
+    .box1-image{
+        width: 100%;
+    }
+    .box1-image img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+
+    .box2 h2{
+        text-transform: uppercase;
+    }
+    
+    .content{
+        width: 100%;
+        
+    }
+    
+    #media{
+        font-size: 10em;
+    
+    }
+    .box2 h3{
+        word-break: break-all;
+        font-weight: 10em;
+    }
+
+    .item{
+        text-transform: uppercase;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    .item img{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    /* list does not have the styling again */
+    li{
+        list-style-type: none;
+    }
+    
+    .box3{
+        width: 100%;
+        display: flex;
+        
+    }
+    .item1{
+        width: 33%;
+    }
+    .item2{
+        width: 66%;
+    }
+
+    .item3{
+        width: 99%;
+    }
+    .client{
+        width: 100%;
+        display: flex;
+    }
+    
+    .left{
+        width: 50%;
+    }
+    
+    .right{
+        width: 50%;
+    }
+    .box4{
+        border: 0.1em solid black;
+        padding: 1.5em;
+        color: white;
+        background-color:#01425e;
+    }
+    
+    .box4-link{
+    
+        border:0.1em solid #6EC1E4;
+        padding: 1em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        display: block;
+        text-align: center;
+        
+    
+    
+    }
+    .box4-link a{
+        color: #6EC1E4;
+    
+    }
+    
+    .box4-rotate{
+        
+    }
+    
+
+     .item{
+        text-transform: uppercase;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    .item img{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .join-team{
+        width: 100%;
+    
+    }
+    .team-image{
+        padding-top: 1em;
+    }
+    
+    .team-image, .team-text{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .box7{
+        width: 100%;
+      
+    }
+    .box71{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .center,.box7-content{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    
+    }
+    
+    .footer-content{
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color:#01425e;
+        color: white;
+        width: 100%;
+    
+    }
+
+    footer{
+        width: 100%;
+      
+    }
+
+
+.foot-add{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+    footer a{
+        color: white;
+        text-decoration: none;
+    }
+
+    a:hover footer{
+        color: #4054b2;
+    }
+    .footer-content{
+        display:flex;
+        width: 100%;
+    
+    }
+    .left{
+        width: 50%;
+    }
+    .right{
+        width: 50%;
+
+    }
+    
+} 
+
+/* some notebooks and laptops */
+
+@media screen  and (min-width:769px) and (max-width: 1024px)
+{   
+
+    nav li{
+        list-style-type:none;
+        display: inline-block;
+    
+        
+    }
+    
+    nav a{
+        text-decoration: none;
+        color:black;
+        padding: 1em;
+    }
+
+    .home_nav a{
+        text-decoration: none;
+        color: black;
+        padding: 1em;
+
+    }
+
+    a:hover{
+        color: #4054b2;
+    }
+    a:active{
+        color: #4054b2;
+    }
+
+    
+    header{
+        background-color: white;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .container h2{
+    
+        color: #4054b2;
+        text-shadow: 1.5px 1.5px 1px black;
+    
+        font-size: 2em;
+        font-weight: bold;
+    }
+    
+    .link_design{
+        display: block;
+        width: 50%;
+        background-color: rgb(64, 84, 178, 0.9);
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1em;
+    
+        padding: 1em;
+        text-align: center;
+        border-radius: 0.5em;
+    }
+    .link_design a{
+        color: white;
+    
+    } 
+    
+
+    .header_style{
+        background-image: url("../image/Slink-Digital-Technologies.jpg");
+        width: 100%;
+        
+        height: 500px;
+    }
+    
+    .quote{
+        padding-left: 5em;
+    }
+    
+    .home{
+        padding-left: 15em;
+    }
+    
+    .header-bg{
+        background-color: #4054b2;
+        width: 100%;
+        height: auto;
+    
+    
+    
+    }
+    
+    .header-text, .header-text h1{
+        color: white;
+        font-size: 1.5em;
+        font-weight: bold;
+        text-align: center;
+        word-break: break-all;
+        
+    }
+    
+    .header-image{
+    
+        
+    
+    }
+    
+    .header-button{
+        
+    }
+    
+    label{
+        text-transform: uppercase;
+    }
+    
+    
+    /* Content after header */
+    
+    .container h2{
+        text-align: center;
+        word-break: break-all;
+    
+    }
+    
+    .container a{
+        text-decoration: none;
+        margin-left: auto;
+        margin-right: auto;
+    
+    
+    }
+
+    .box1-image{
+        width: 100%;
+    }
+    .box1-image img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+
+    .box2 h2{
+        text-transform: uppercase;
+    }
+    
+    .content{
+        width: 100%;
+        
+    }
+    
+    #media{
+        font-size: 10em;
+    
+    }
+    .box2 h3{
+        word-break: break-all;
+        font-weight: 10em;
+    }
+
+    .item{
+        text-transform: uppercase;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    .item img{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    /* list does not have the styling again */
+    li{
+        list-style-type: none;
+    }
+    
+    .box3{
+        width: 100%;
+        display: flex;
+        
+    }
+    .item1{
+        width: 33%;
+    }
+    .item2{
+        width: 66%;
+    }
+
+    .item3{
+        width: 99%;
+    }
+    .client{
+        width: 100%;
+        display: flex;
+    }
+    
+    .left{
+        width: 50%;
+    }
+    
+    .right{
+        width: 50%;
+    }
+    .box4{
+        border: 0.1em solid black;
+        padding: 1.5em;
+        color: white;
+        background-color:#01425e;
+    }
+    
+    .box4-link{
+    
+        border:0.1em solid #6EC1E4;
+        padding: 1em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        display: block;
+        text-align: center;
+        
+    
+    
+    }
+    .box4-link a{
+        color: #6EC1E4;
+    
+    }
+    
+    .box4-rotate{
+        
+    }
+    
+
+     .item{
+        text-transform: uppercase;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    .item img{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .join-team{
+        width: 100%;
+    
+    }
+    .team-image{
+        padding-top: 1em;
+    }
+    
+    .team-image, .team-text{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .box7{
+        width: 100%;
+      
+    }
+    .box71{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .box72{
+        width: 100%;
+        display: flex;
+    
+    }
+
+    .form1{
+        width: 50%;
+        padding-right: 0.5em;
+    }
+
+    .form2{
+        width: 50%;
+        padding-left: 0.5em;
+    }
+
+    .client{
+        width: 100%;
+        display: flex;
+    }
+
+    .client1{
+        width: 20%;
+        padding:2em;
+
+    }
+
+    .client2{
+        width: 40%;
+        padding:2em;
+    }
+
+    .client3{
+        width: 60%;
+        padding:2em;
+    }
+
+    .client4{
+        width: 80%;
+        padding:2em;
+    }
+
+
+    
+    .center,.box7-content{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    
+    }
+    
+    footer{
+    width: 100%;
+        
+    }
+
+
+.foot-add{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+    footer a{
+        color: white;
+        text-decoration: none;
+    }
+
+    a:hover footer{
+        color: #4054b2;
+    }
+    .footer-content{
+        display:flex;
+        width: 100%;
+        background-color:#01425e;
+        color: white;
+        width: 100%;
+    
+    }
+    .left{
+        width: 50%;
+    }
+    .right{
+        width: 50%;
+
+    }
+
+    .box61{
+        width: 100%;
+        display: flex;
+        border: 0.1em solid gainsboro;
+        padding: 0.5em;
+    }
+    .box6-content{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .contact, .contact2{
+        
+        width: 50%;
+    }
+
+
+}
+
+
+/*large screen */
+
+@media screen and (min-width:1025px)
+{
+    nav li{
+        list-style-type:none;
+        display: inline-block;
+    
+        
+    }
+    .home_nav a{
+        text-decoration: none;
+        color: black;
+        padding: 1em;
+
+    }
+    
+    nav a{
+        text-decoration: none;
+        color:white;
+        padding: 1em;
+    }
+    a:hover{
+        color: #4054b2;
+    }
+    a:active{
+        color: #4054b2;
+    }
+    
+    /* header{
+        background-color: white;
+        width: 100%;
+        height: 100vh;
+    } */
+
+   
+
+    main{
+        width: 100%;
+    }
+
+    .container h2{
+    
+        color: #4054b2;
+        text-shadow: 1.5px 1.5px 1px black;
+    
+        font-size: 2em;
+        font-weight: bold;
+    }
+    
+    .link_design{
+        display: block;
+        width: 50%;
+        background-color: rgb(64, 84, 178, 0.9);
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1em;
+    
+        padding: 1em;
+        text-align: center;
+        border-radius: 0.5em;
+    }
+    .link_design a{
+        color: white;
+    
+    } 
+    
+
+    .header_style{
+        background-image: url("../image/Slink-Digital-Technologies.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        
+        height: 500px;
+    }
+
+    header h1{
+        text-align: center;
+        font-weight: bold;
+        color: white;
+        margin-left:auto;
+        margin-right: auto;
+        width: 50%;
+        padding-top: 4em;
+        
+
+    }
+    
+    .quote{
+        padding-left: 5em;
+    }
+    
+    .home{
+        padding-left: 15em;
+    }
+    
+    .header-bg{
+        background-color: #4054b2;
+        width: 100%;
+        height: auto;
+    
+    
+    
+    }
+    
+    .header-text, .header-text h1{
+        color: white;
+        font-size: 1.5em;
+        font-weight: bold;
+        text-align: center;
+        word-break: break-all;
+        
+    }
+    
+    .header-image{
+    
+        
+    
+    }
+    
+    .header-button{
+        
+    }
+    
+    label{
+        text-transform: uppercase;
+    }
+    
+    
+    /* Content after header */
+    
+    .container h2{
+        text-align: center;
+        word-break: break-all;
+    
+    }
+    
+    .container a{
+        text-decoration: none;
+        margin-left: auto;
+        margin-right: auto;
+    
+    
+    }
+    .box1-content{
+        width: 100%;
+        display: flex;
+
+    }
+
+    .box1-image{
+        width: 50%;
+    }
+    
+    .box1-image img{
+        width: 100%;
+    }
+
+    .box1{
+        width:50%;
+    }
+    
+
+    .box2{
+
+        width: 100%;
+    
+    }
+
+    .box2-content{
+        width: 100%;
+    }
+
+    .box2-content{
+        display: flex;
+    }
+
+    .box2-content img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    /* note icon1 is the first icon, icon2 is the second icon used and so on */
+    .icon1{
+        width: 25%;
+    }
+    
+    .icon2{
+        width: 50%;
+    }
+
+    .icon3{
+        width: 75%;
+    }
+
+    .icon4{
+        width: 100%;
+    }
+
+    .box2 h2{
+        text-transform: uppercase;
+    }
+    
+    .container{
+        width: 100%;
+
+        
+    }
+
+    .container .box2 h3{
+        text-align: center;
+    }
+    
+    /*class for icons*/
+    #media{
+        font-size: 10em;
+    
+    }
+    .box2 h3{
+        word-break: break-all;
+        font-weight: 10em;
+    }
+    .item{
+        text-transform: uppercase;
+    }
+    
+    /* list does not have the styling again */
+    li{
+        list-style-type: none;
+    }
+
+    .box3-content{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:80%
+    }
+    .box3{
+        width: 100%;
+        display: flex;
+        
+    }
+
+
+.box4{
+    border: 0.1em solid black;
+    padding: 1.5em;
+    color: white;
+    background-color:#01425e;
+}
+
+.box4-link{
+
+    border:0.1em solid #6EC1E4;
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: block;
+    text-align: center;
+    
+
+
+}
+.box4-link a{
+    color: #6EC1E4;
+
+}
+
+.box4-rotate{
+    
+}
+
+    .item1{
+        width: 33%;
+    }
+    .item2{
+        width: 66%;
+    }
+    .item3{
+        width: 99%;
+    }
+    .client{
+        width: 100%;
+        display: flex;
+    }
+    
+    .left{
+        width: 50%;
+    }
+    
+    .right{
+        width: 50%;
+    }
+
+    .center{
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+    .box7{
+        width: 100%;
+      
+    }
+    .box7-content{
+        width: 100%;
+        display: flex;
+
+    }
+    .box71{
+        width: 50%;
+    }
+
+    .box72{
+      width: 50%;
+    
+    }
+
+    .form1{
+        width: 50%;
+        
+    }
+
+    .form2{
+        width: 100%;
+        
+    }
+
+   
+    .footer-content{
+        display: flex;
+        width: 100%;
+    }
+
+    footer .left{
+
+        width: 50%
+
+
+    }
+
+    footer .right{
+        width: 100%;
+
+    }
+    
+    
+    
+   
+    footer{
+        width: 100%;
+            
+        }
+    
+    
+    .foot-add{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    
+        footer a{
+            color: white;
+            text-decoration: none;
+        }
+    
+        a:hover footer{
+            color: #4054b2;
+        }
+        .footer-content{
+            display:flex;
+            width: 100%;
+            background-color:#01425e;
+            color: white;
+            width: 100%;
+        
+        }
+        .left{
+            width: 50%;
+        }
+        .right{
+            width: 50%;
+    
+        }
+        .box61{
+            width: 100%;
+            display: flex;
+            border: 0.1em solid gainsboro;
+            padding: 0.5em;
+        }
+        .box6-content{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+        .contact, .contact2{
+            
+            width: 50%;
+        }
+
+        .client{
+            width: 100%;
+            display: flex;
+        }
+    
+        .client1{
+            width: 20%;
+            padding:2em;
+    
+        }
+    
+        .client2{
+            width: 40%;
+            padding:2em;
+        }
+    
+        .client3{
+            width: 60%;
+            padding:2em;
+        }
+    
+        .client4{
+            width: 80%;
+            padding:2em;
+        }
+    
+    
+
+        .join-team{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+        }
+        
+        .team{
+            width: 100%;
+            margin-top: 1em;
+            display: flex;
+        
+        }
+        
+        .team-image{
+        
+            width: 50%;
+            display: flex;        }
+        
+        .team-text{
+            /* padding-right: 1em; */
+            width: 50%;
+        }
+        
+    
+    
+}
