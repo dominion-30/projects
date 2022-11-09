@@ -2,6 +2,8 @@
 @media screen and (max-width: 530px){
 
 
+
+
 nav li{
     list-style-type:none;
     display: inline-block;
@@ -312,7 +314,9 @@ a:hover footer{
 /* Tablet Screen */
 
 @media screen and (min-width:321px) and ( max-width:768px)
+
  {
+    
     
     nav li{
         list-style-type:none;
