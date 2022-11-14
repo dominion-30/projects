@@ -2,6 +2,19 @@
 @media screen and (max-width: 530px){
 
 
+    header span{
+        float: right;
+    }
+
+    .home_nav{
+        visibility: hidden;
+    }
+
+    header span:hover{
+        visibility: visible;
+    } 
+
+
 
 
 nav li{
