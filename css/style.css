@@ -1,18 +1,26 @@
 /* mobile screen */
 @media screen and (max-width: 530px){
 
-
-    header span{
-        float: right;
+    .dropdown{
+        position: relative;
+        display: inline-block;
+        left:65%;
+    
+        
     }
 
-    .home_nav{
-        visibility: hidden;
+    .dropdown-content{
+        display: none;
+        position: absolute;
+        background-color: #01425e;
+        text-align: center;
+        z-index: 1;
+        color: white;
     }
 
-    header span:hover{
-        visibility: visible;
-    } 
+    .dropdown:hover .dropdown-content{
+        display: block;
+    }
 
 
 
@@ -28,12 +36,15 @@ nav a{
     text-decoration: none;
     color:black;
     padding: 1em;
+    
+
 }
 
 .home_nav a{
     text-decoration: none;
     color: black;
     padding: 1em;
+    text-align: center;
 
 }
 
@@ -353,6 +364,27 @@ a:hover footer{
 @media screen and (min-width:321px) and ( max-width:768px)
 
  {
+    .dropdown{
+        position: relative;
+        display: inline-block;
+        left:65%;
+    
+        
+    }
+
+    .dropdown-content{
+        display: none;
+        position: absolute;
+        background-color: #01425e;
+        text-align: center;
+        z-index: 1;
+        color: white;
+    }
+
+    .dropdown:hover .dropdown-content{
+        display: block;
+    }
+
     
     
     nav li{
@@ -695,7 +727,28 @@ a:hover footer{
 /* some notebooks and laptops */
 
 @media screen  and (min-width:769px) and (max-width: 1024px)
-{   
+
+{    .dropdown{
+    position: relative;
+    display: inline-block;
+    left:65%;
+
+    
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #01425e;
+    text-align: center;
+    z-index: 1;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
 
     nav li{
         list-style-type:none;
@@ -1096,7 +1149,11 @@ a:hover footer{
 /*large screen */
 
 @media screen and (min-width:1025px)
+
 {
+    .dropdown span{
+        display: none;
+    }
     nav li{
         list-style-type:none;
         display: inline-block;
