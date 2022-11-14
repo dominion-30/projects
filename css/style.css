@@ -1,6 +1,10 @@
 /* mobile screen */
 @media screen and (max-width: 530px){
 
+    body{
+        font-size: 80%;
+    }
+
    
 
     .dropdown{
@@ -31,8 +35,9 @@
         color: white;
         margin-left:auto;
         margin-right: auto;
-        width: 50%;
-        padding-top: 4em;
+        width: 100%;
+        padding-top: 1em;
+        
         
 
     }
@@ -75,10 +80,13 @@ a:active{
 header{
     background-color: white;
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
+    height: auto;
 }
 
 .container h2{
+    margin-top: 0%;
+    
     
     color: #4054b2;
     text-shadow: 1.5px 1.5px 1px black;
@@ -188,7 +196,7 @@ input:checked + :hover{
 
 .container h2{
     /* margin-top: 50em; */
-    margin-top: 0%;
+    
     text-align: center;
     word-break: break-all;
 
@@ -380,9 +388,12 @@ a:hover footer{
 
 /* Tablet Screen */
 
-@media screen and (min-width:321px) and ( max-width:768px)
+@media screen and (min-width:531px) and ( max-width:768px)
 
  {
+    body{
+        font-size: 80%;
+    }
     .dropdown{
         position: relative;
         display: inline-block;
@@ -412,7 +423,7 @@ a:hover footer{
         margin-left:auto;
         margin-right: auto;
         width: 50%;
-        padding-top: 4em;
+        padding-top: 1em;
         
 
     }
@@ -453,11 +464,12 @@ a:hover footer{
     header{
         background-color: white;
         width: 100%;
-        height: 100vh;
+        /* height: 100vh; */
+        height:auto;
     }
 
     .container h2{
-        margin-top: 0%;
+    
     
         color: #4054b2;
         text-shadow: 1.5px 1.5px 1px black;
@@ -795,7 +807,7 @@ header h1{
     margin-left:auto;
     margin-right: auto;
     width: 50%;
-    padding-top: 4em;
+    padding-top: 1em;
     
 
 }
@@ -928,6 +940,7 @@ header h1{
     /* Content after header */
     
     .container h2{
+        
         margin-top: 12%;
         text-align: center;
         word-break: break-all;
@@ -1246,6 +1259,7 @@ header h1{
     }
 
     .container h2{
+        margin-top: 5%;
     
         color: #4054b2;
         text-shadow: 1.5px 1.5px 1px black;
@@ -1288,7 +1302,7 @@ header h1{
         margin-left:auto;
         margin-right: auto;
         width: 50%;
-        padding-top: 4em;
+        padding-top: 1em;
         
 
     }
@@ -1683,7 +1697,7 @@ header h1{
         }
 
         .home_nav a{
-          color: white;
+          color: black;
         
         
 
