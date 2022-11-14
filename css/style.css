@@ -23,6 +23,19 @@
     }
 
 
+    header h1{
+        text-align: center;
+        font-weight: bold;
+        color: white;
+        margin-left:auto;
+        margin-right: auto;
+        width: 50%;
+        padding-top: 4em;
+        
+
+    }
+
+
 
 
 nav li{
@@ -99,8 +112,10 @@ header{
 
 .header_style{
     background-image: url("../image/Slink-Digital-Technologies.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
-
+    
     height: 500px;
 }
 
@@ -385,6 +400,19 @@ a:hover footer{
         display: block;
     }
 
+
+    header h1{
+        text-align: center;
+        font-weight: bold;
+        color: white;
+        margin-left:auto;
+        margin-right: auto;
+        width: 50%;
+        padding-top: 4em;
+        
+
+    }
+
     
     
     nav li{
@@ -451,6 +479,8 @@ a:hover footer{
 
     .header_style{
         background-image: url("../image/Slink-Digital-Technologies.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
         width: 100%;
         
         height: 500px;
@@ -750,6 +780,20 @@ a:hover footer{
 }
 
 
+
+header h1{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin-left:auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 4em;
+    
+
+}
+
+
     nav li{
         list-style-type:none;
         display: inline-block;
@@ -814,6 +858,8 @@ a:hover footer{
 
     .header_style{
         background-image: url("../image/Slink-Digital-Technologies.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
         width: 100%;
         
         height: 500px;
