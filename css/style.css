@@ -1,6 +1,8 @@
 /* mobile screen */
 @media screen and (max-width: 530px){
 
+   
+
     .dropdown{
         position: relative;
         display: inline-block;
@@ -50,19 +52,21 @@ nav a{
     color:black;
     padding: 1em;
     
+    
 
 }
 
 .home_nav a{
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 1em;
-    text-align: center;
+    
+ 
 
 }
 
 a:hover{
-    color: #4054b2;
+    color: gray;
 }
 a:active{
     color: #4054b2;
@@ -430,13 +434,16 @@ a:hover footer{
 
     .home_nav a{
         text-decoration: none;
-        color: black;
+        color: white;
         padding: 1em;
+        
 
     }
 
+    
+
     a:hover{
-        color: #4054b2;
+        color: gray;
     }
     a:active{
         color: #4054b2;
@@ -809,13 +816,13 @@ header h1{
 
     .home_nav a{
         text-decoration: none;
-        color: black;
+        color: white;
         padding: 1em;
 
     }
 
     a:hover{
-        color: #4054b2;
+        color:gray;
     }
     a:active{
         color: #4054b2;
@@ -1217,6 +1224,7 @@ header h1{
         text-decoration: none;
         color:white;
         padding: 1em;
+    
     }
     a:hover{
         color: #4054b2;
@@ -1673,7 +1681,23 @@ header h1{
             /* padding-right: 1em; */
             width: 50%;
         }
+
+        .home_nav a{
+          color: white;
         
+        
+
+        }
+
+        
+        .home_nav ul{
+            padding-top: 1.5em;
+            
+        }
+
+        a:hover{
+            color: #4054b2;
+        }
     
     
 }
