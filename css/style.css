@@ -5,6 +5,45 @@
         font-size: 80%;
     }
 
+    .button-container{
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+    }
+
+    .button{
+        
+        
+        border:0.1em solid #01425e;
+        border-radius: 1em;
+        padding: 0.6em;
+        background-color: #007bff
+        
+
+        
+    }
+
+    .project a{
+        color: white;
+    }
+
+    .project a:hover{
+        color: #01425e;
+    }
+
+    .button a{
+        color: white;
+        text-decoration: none;
+        text-align: center;
+    }
+
+
+    .button:hover{
+        background-color: orange;
+    }
+
+    .button a:hover{
+        color: white;
+    }
    
 
     .dropdown{
@@ -394,6 +433,41 @@ a:hover footer{
     body{
         font-size: 80%;
     }
+
+    .button-container{
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+    }
+
+    .button{
+        
+        
+        border:0.1em solid #01425e;
+        border-radius: 1em;
+        padding: 0.6em;
+        background-color: #007bff
+        
+
+        
+    }
+    .button a{
+        color: white;
+        text-decoration: none;
+        text-align: center;
+    }
+
+
+    .button:hover{
+        background-color: orange;
+    }
+
+    .button a:hover{
+        color: white;
+    }
+   
+
+
+
     .dropdown{
         position: relative;
         display: inline-block;
@@ -777,7 +851,42 @@ a:hover footer{
 
 @media screen  and (min-width:769px) and (max-width: 1024px)
 
-{    .dropdown{
+{    
+    
+    .button-container{
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+    }
+
+    .button{
+        
+        
+        border:0.1em solid #01425e;
+        border-radius: 1em;
+        padding: 0.6em;
+        background-color: #007bff
+        
+
+        
+    }
+    .button a{
+        color: white;
+        text-decoration: none;
+        text-align: center;
+    }
+
+
+    .button:hover{
+        background-color: orange;
+    }
+
+    .button a:hover{
+        color: white;
+    }
+   
+
+
+    .dropdown{
     position: relative;
     display: inline-block;
     
@@ -1217,6 +1326,43 @@ header h1{
 @media screen and (min-width:1025px)
 
 {
+
+
+    .button-container{
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+    }
+
+    .button{
+        
+        
+        border:0.1em solid #01425e;
+        border-radius: 1em;
+        padding: 0.6em;
+        background-color: #007bff
+        
+
+        
+    }
+    .button a{
+        color: white;
+        text-decoration: none;
+        text-align: center;
+    }
+
+
+    .button:hover{
+        background-color: orange;
+    }
+
+    .button a:hover{
+        color: white;
+    }
+   
+
+
+
+
     .dropdown span{
         display: none;
     }
