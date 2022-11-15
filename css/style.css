@@ -124,7 +124,7 @@ header{
 }
 
 .container h2{
-    margin-top: 0%;
+    margin-top: 2%;
     
     
     color: #4054b2;
@@ -151,6 +151,13 @@ header{
     color: white;
 
 } 
+
+.box1 form{
+    padding-top: 1.5em;
+    padding-left: auto;
+    padding-right: auto;
+}
+
 .box1-image{
     width: 100%;
 }
@@ -280,6 +287,9 @@ input:checked + :hover{
     text-transform: uppercase;
     margin-left: auto;
     margin-right: auto;
+    display: block;
+    width: 50%;
+    text-align: center;
 }
 
 
@@ -454,6 +464,15 @@ a:hover footer{
         color: white;
         text-decoration: none;
         text-align: center;
+    }
+
+
+    .project a{
+        color: white;
+    }
+
+    .project a:hover{
+        color: #01425e;
     }
 
 
@@ -651,6 +670,12 @@ a:hover footer{
     
     }
 
+    .box1 form{
+        padding-top: 1.5em;
+        padding-left: auto;
+        padding-right: auto;
+    }
+
     .box1-image{
         width: 100%;
     }
@@ -677,6 +702,7 @@ a:hover footer{
     .box2 h3{
         word-break: break-all;
         font-weight: 10em;
+        font-size: 2em;
     }
 
     .item{
@@ -844,6 +870,15 @@ a:hover footer{
         width: 50%;
 
     }
+    .box2-content{
+        width: 100%;
+    }
+    .box2-content img{
+        display: block;
+        width:100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
     
 } 
 
@@ -861,7 +896,7 @@ a:hover footer{
     .button{
         
         
-        border:0.1em solid #01425e;
+        border:0.1em solid #007bff;
         border-radius: 1em;
         padding: 0.6em;
         background-color: #007bff
@@ -869,6 +904,17 @@ a:hover footer{
 
         
     }
+
+
+    .project a{
+        color: white;
+    }
+
+    .project a:hover{
+        color: #01425e;
+    }
+
+
     .button a{
         color: white;
         text-decoration: none;
@@ -1063,6 +1109,13 @@ header h1{
     
     
     }
+
+    .box1 form{
+        padding-top: 1.5em;
+        padding-left: auto;
+        padding-right: auto;
+    }
+
 
     .box1-image{
         width: 100%;
@@ -1318,6 +1371,17 @@ header h1{
     }
 
 
+    .box2-content{
+        width: 100%;
+    }
+    .box2-content img{
+        display: block;
+        width:90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
 }
 
 
@@ -1344,6 +1408,18 @@ header h1{
 
         
     }
+
+
+
+    .project a{
+        color: white;
+    }
+
+    .project a:hover{
+        color: #01425e;
+    }
+
+
     .button a{
         color: white;
         text-decoration: none;
@@ -1524,6 +1600,15 @@ header h1{
     
     
     }
+
+
+    .box1 form{
+        padding-top: 1.5em;
+        padding-left: auto;
+        padding-right: auto;
+    }
+
+
     .box1-content{
         width: 100%;
         display: flex;
@@ -1541,6 +1626,8 @@ header h1{
     .box1{
         width:50%;
     }
+
+  
     
 
     .box2{
