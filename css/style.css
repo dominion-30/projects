@@ -308,10 +308,31 @@ li{
     width: 100%;
     
 }
-.client{
+
+.join-team{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
-    /* display: flex; */
 }
+
+
+.client{
+    display: flex;
+    width: 100%;
+  
+}
+
+.firsttwo{
+    width: 50%;
+}
+
+.lasttwo{
+    width: 100%;
+}
+
+
+
 
 .left{
     width: 50%;
@@ -326,7 +347,15 @@ li{
     padding: 1.5em;
     color: white;
     background-color:#01425e;
+    text-align:center;
+    
 }
+
+.box4 h3{
+    font-size: 1.5em;
+}
+
+
 
 .box4-link{
 
@@ -351,11 +380,17 @@ li{
 }
 
  .join-team{
+    display: flex;
     width: 100%;
-    margin-top: 1em;
 
 }
 
+.firsttwo{
+    width: 50%;
+}
+.lasttwo{
+    width: 100%;
+}
 .team-image, .team-text{
     margin-left: auto;
     margin-right: auto;
@@ -709,6 +744,9 @@ a:hover footer{
         text-transform: uppercase;
         margin-left: auto;
         margin-right: auto;
+        display: block;
+        width: 50%;
+        text-align: center;
     }
     
     
@@ -725,19 +763,10 @@ a:hover footer{
     
     .box3{
         width: 100%;
-        display: flex;
+        
         
     }
-    .item1{
-        width: 33%;
-    }
-    .item2{
-        width: 66%;
-    }
-
-    .item3{
-        width: 99%;
-    }
+   
     .client{
         width: 100%;
         display: flex;
@@ -755,7 +784,15 @@ a:hover footer{
         padding: 1.5em;
         color: white;
         background-color:#01425e;
+        text-align:center;
+        
     }
+
+    .box4 h3{
+        font-size: 1.5em;
+    }
+
+
     
     .box4-link{
     
@@ -1149,6 +1186,9 @@ header h1{
         text-transform: uppercase;
         margin-left: auto;
         margin-right: auto;
+        display: block;
+        width: 100%;
+        text-align: center;
     }
     
     
@@ -1156,6 +1196,7 @@ header h1{
         display:block;
         margin-left: auto;
         margin-right: auto;
+        width: 20%;
     }
     
     /* list does not have the styling again */
@@ -1169,14 +1210,18 @@ header h1{
         
     }
     .item1{
-        width: 33%;
+        
+        width: 30%;
+        padding: 1em;
     }
     .item2{
-        width: 66%;
+        width: 60%;
+        padding: 1em;
     }
 
     .item3{
-        width: 99%;
+        width: 90%;
+        padding: 1em;
     }
     .client{
         width: 100%;
@@ -1190,11 +1235,24 @@ header h1{
     .right{
         width: 50%;
     }
+    
     .box4{
         border: 0.1em solid black;
         padding: 1.5em;
         color: white;
         background-color:#01425e;
+        text-align:center;
+        
+    }
+
+    .box4 h3{
+        font-size: 1.5em;
+    }
+
+
+
+    .box4 h3{
+        font-size: 1.5em;
     }
     
     .box4-link{
@@ -1692,6 +1750,11 @@ header h1{
     }
     .item{
         text-transform: uppercase;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 50%;
+        text-align: center;
     }
     
     /* list does not have the styling again */
@@ -1712,12 +1775,18 @@ header h1{
     }
 
 
-.box4{
-    border: 0.1em solid black;
-    padding: 1.5em;
-    color: white;
-    background-color:#01425e;
-}
+    .box4{
+        border: 0.1em solid black;
+        padding: 1.5em;
+        color: white;
+        background-color:#01425e;
+        text-align:center;
+        
+    }
+
+    .box4 h3{
+        font-size: 1.5em;
+    }
 
 .box4-link{
 
