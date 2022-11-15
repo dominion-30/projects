@@ -2,7 +2,7 @@
 @media screen and (max-width: 530px){
 
     body{
-        font-size: 80%;
+        font-size: 100%;
     }
 
     .button-container{
@@ -313,23 +313,48 @@ li{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 50%;
 }
 
 
 .client{
     display: flex;
-    width: 100%;
+    width: 60%;
   
 }
 
 .firsttwo{
     width: 50%;
+    padding:2em;
+ 
+}
+
+.firsttwo h3, .lasttwo h3{
+    color: #007bff;
+    font-size: 2em;
 }
 
 .lasttwo{
-    width: 100%;
+    width: 50%;
+    padding:2em;
 }
+
+.contact{
+    font-size: 1.2em;
+    text-align: center;
+    padding: 1em;
+}
+
+
+
+.contact2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    padding-bottom: 1em;
+}
+
 
 
 
@@ -378,30 +403,33 @@ li{
 .box4-rotate{
     
 }
-
- .join-team{
-    display: flex;
-    width: 100%;
-
-}
-
-.firsttwo{
-    width: 50%;
-}
-.lasttwo{
-    width: 100%;
-}
-.team-image, .team-text{
+.team{
+    background-color: #01425e;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    display: flex;
+    width: 100%;
+    /* border:0.2em solid #01425e; */
+    
+   
 }
 
-.team-text{
-    padding-right: 1em;
-    width: 50%;
+.team-image img{
+    background-size: contain;
+    width: 100%;
 }
+
+ 
+.team-text{
+
+    
+    padding: 1em;
+    text-align: center;
+    
+} 
+
+
+
 
 .box7{
     width: 100%;
@@ -419,6 +447,10 @@ li{
     margin-right: auto;
     display: block;
 
+}
+
+.center{
+    text-align: center;
 }
 
 footer{
