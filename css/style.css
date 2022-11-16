@@ -1868,7 +1868,13 @@ header h1{
    
 
 
-
+    .sticky{
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        background-color:#dddddd;
+        padding: 1em;
+    }
 
     .dropdown span{
         display: none;
