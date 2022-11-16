@@ -61,6 +61,8 @@
         text-align: center;
         z-index: 1;
         color: white;
+        padding: 1em;
+        width: 200px;
     }
 
     .dropdown:hover .dropdown-content{
@@ -363,6 +365,37 @@ li{
     
 }
 
+.fixed textarea{
+    margin-bottom: 1em;
+}
+.fixed a{
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    padding: 1em;
+    
+}
+div.fixed{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 25%;
+    padding: 1em;
+    background-color: #dddddd;
+    border: 0.2em solid #dddddd;
+    border-radius: 0.5em;
+}
+
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color:#dddddd;
+    padding: 1em;
+}
+
+
+
 .box6{
     width: 100%;
 }
@@ -644,6 +677,35 @@ a:hover footer{
     }
 
 
+    .fixed textarea{
+        margin-bottom: 1em;
+    }
+    .fixed a{
+        text-decoration: none;
+        color: white;
+        background-color: #007bff;
+        padding: 1em;
+        
+    }
+    div.fixed{
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 25%;
+        padding: 1em;
+        background-color: #dddddd;
+        border: 0.2em solid #dddddd;
+        border-radius: 0.5em;
+    }
+    
+    .sticky{
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        background-color:#dddddd;
+        padding: 1em;
+    }
+
 
 
 
@@ -682,6 +744,8 @@ a:hover footer{
         text-align: center;
         z-index: 1;
         color: white;
+        padding: 1em;
+        width: 200px;
     }
 
     .dropdown:hover .dropdown-content{
@@ -1201,6 +1265,35 @@ a:hover footer{
         padding: 0.5em;
     }
 
+    .fixed textarea{
+        margin-bottom: 1em;
+    }
+    .fixed a{
+        text-decoration: none;
+        color: white;
+        background-color: #007bff;
+        padding: 1em;
+        
+    }
+    div.fixed{
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 25%;
+        padding: 1em;
+        background-color: #dddddd;
+        border: 0.2em solid #dddddd;
+        border-radius: 0.5em;
+    }
+    
+    .sticky{
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        background-color:#dddddd;
+        padding: 1em;
+    }
+
 
 
 
@@ -1251,6 +1344,8 @@ a:hover footer{
     text-align: center;
     z-index: 1;
     color: white;
+    padding: 1em;
+    width: 200px;
 }
 
 .dropdown:hover .dropdown-content{
@@ -1866,8 +1961,27 @@ header h1{
         color: white;
     }
    
-
-
+    .fixed textarea{
+        margin-bottom: 1em;
+    }
+    .fixed a{
+        text-decoration: none;
+        color: white;
+        background-color: #007bff;
+        padding: 1em;
+        
+    }
+    div.fixed{
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 25%;
+        padding: 1em;
+        background-color: #dddddd;
+        border: 0.2em solid #dddddd;
+        border-radius: 0.5em;
+    }
+    
     .sticky{
         position: -webkit-sticky;
         position: sticky;
