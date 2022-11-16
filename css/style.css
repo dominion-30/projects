@@ -205,6 +205,10 @@ header{
     
 }
 
+.header-text h1{
+    padding-top: 4em;
+}
+
 .header-text{
     width: 100%;
 }
@@ -358,6 +362,10 @@ li{
     
 }
 
+.box6{
+    width: 100%;
+}
+
 .box61{
     width: 100%;
 }
@@ -456,7 +464,13 @@ li{
 footer{
     width: 100%;
 }
-
+/* .footerbottom{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    
+} */
 .foot-add{
     display: block;
     margin-left: auto;
@@ -464,13 +478,11 @@ footer{
     width: 50%;
 }
 .footer-content{
-    display: block;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    
     background-color:#01425e;
     color: white;
     width: 100%;
+    
 
 }
 
@@ -491,15 +503,13 @@ a:hover footer{
     display:flex;
     width: 100%;
 
-} */
-/* .left{
-    width: 50%;
+} 
+*/
+.left, .right{
+    text-align: center;
+    width: 100%;
+    padding: 0.5em;
 }
-.right{
-    width: 50%;
-
-} */
-
 }
 
 /* Tablet Screen */
@@ -682,6 +692,8 @@ a:hover footer{
     
     
     }
+
+   
     
     .header-text, .header-text h1{
         color: white;
@@ -690,6 +702,10 @@ a:hover footer{
         text-align: center;
         word-break: break-all;
         
+    }
+
+    .header-text h1{
+        padding-top: 4em;
     }
 
 
@@ -1124,6 +1140,10 @@ header h1{
     
     
     
+    }
+
+    .header-text h1{
+        padding-top: 4em;
     }
     
 
@@ -1649,6 +1669,9 @@ header h1{
         
     }
     
+    .header-text h1{
+        padding-top: 4em;
+    }
 
 
     .header-text{
@@ -1658,6 +1681,7 @@ header h1{
         width: 50%;
     }
     .header-image img{
+        padding-top: 10em;
         width: 80%;
         margin-left: auto;
         margin-right: auto;
