@@ -189,8 +189,9 @@ header{
     background-color: #4054b2;
     width: 100%;
     height: auto;
+    padding-bottom: 1.5em;
     
-    /* overflow:scroll */
+  
 
 
 
@@ -464,13 +465,7 @@ li{
 footer{
     width: 100%;
 }
-/* .footerbottom{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    
-} */
+
 .foot-add{
     display: block;
     margin-left: auto;
@@ -516,9 +511,12 @@ a:hover footer{
 
 @media screen and (min-width:531px) and ( max-width:768px)
 
- {
+{
+
+  
+
     body{
-        font-size: 80%;
+        font-size: 100%;
     }
 
     .button-container{
@@ -542,6 +540,111 @@ a:hover footer{
         text-decoration: none;
         text-align: center;
     }
+
+
+
+    .team{
+        background-color: #01425e;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        /* border:0.2em solid #01425e; */
+        
+       
+    }
+    
+    .team-image img{
+        background-size: contain;
+        width: 100%;
+    }
+    
+     
+    .team-text{
+    
+        
+        padding: 1em;
+        text-align: center;
+        
+    }
+    
+
+
+
+
+    .join-team{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+
+    .client{
+        display: flex;
+        width: 60%;
+  
+    }
+
+    .firsttwo{
+        width: 50%;
+        padding:2em;
+ 
+    }
+
+    .firsttwo h3, .lasttwo h3{
+        color: #007bff;
+        font-size: 2em;
+    }
+
+    .lasttwo{
+        width: 50%;
+        padding:2em;
+    }
+
+
+
+    .center{
+        text-align: center;
+    }
+
+
+
+    .contact{
+        font-size: 1.2em;
+        text-align: center;
+        padding: 1em;
+    }
+    
+    
+    
+    .contact2{
+        padding-left: 15em;
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 1.5em;
+     
+        
+    }
+    
+    .box6{
+        width: 100%;
+    }
+    
+    .box61{
+        width: 100%;
+    }
+
+    .left, .right{
+        text-align: center;
+        width: 100%;
+        padding: 0.5em;
+    }
+
+
+
 
 
     .project a{
@@ -687,7 +790,7 @@ a:hover footer{
         background-color: #4054b2;
         width: 100%;
         height: auto;
-        
+        padding-bottom: 1.5em;
     
     
     
@@ -819,14 +922,7 @@ a:hover footer{
         width: 100%;
         display: flex;
     }
-    
-    .left{
-        width: 50%;
-    }
-    
-    .right{
-        width: 50%;
-    }
+
     .box4{
         border: 0.1em solid black;
         padding: 1.5em;
@@ -903,7 +999,13 @@ a:hover footer{
         margin-right: auto;
         width: 50%;
     }
-    .center,.box7-content{
+    .box71 img{
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .center,.box7-content, .form1,.form2{
         width: 50%;
         margin-left: auto;
         margin-right: auto;
@@ -989,6 +1091,123 @@ a:hover footer{
 
         
     }
+
+
+
+
+
+
+
+
+    .team{
+        background-color: #01425e;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        /* border:0.2em solid #01425e; */
+        
+       
+    }
+    
+    .team-image img{
+        background-size: contain;
+        width: 100%;
+    }
+    
+     
+    .team-text{
+    
+        
+        padding: 1em;
+        text-align: center;
+        
+    }
+    
+
+
+
+
+    .join-team{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+
+    .client{
+        display: flex;
+        width: 60%;
+  
+    }
+
+    .firsttwo{
+        width: 50%;
+        padding:2em;
+ 
+    }
+
+    .firsttwo h3, .lasttwo h3{
+        color: #007bff;
+        font-size: 2em;
+    }
+
+    .lasttwo{
+        width: 50%;
+        padding:2em;
+    }
+
+
+
+    .center{
+        text-align: center;
+    }
+
+
+
+    .contact{
+        font-size: 1.2em;
+        text-align: center;
+        padding: 1em;
+    }
+    
+    
+    
+    .contact2{
+        padding-top: 5em;
+        padding-left: 1em;
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 1.5em;
+     
+       
+    }
+    
+    .box6{
+        width: 100%;
+    }
+    
+    .box61{
+        width: 100%;
+        margin-bottom: 2em;
+    }
+
+    .left, .right{
+        text-align: center;
+        width: 100%;
+        padding: 0.5em;
+    }
+
+
+
+
+
+
+
+
 
 
     .project a{
@@ -1084,11 +1303,13 @@ header h1{
     header{
         background-color: white;
         width: 100%;
-        height: 100vh;
+        height: auto
     }
 
     .container h2{
-        margin-top: 50%;
+
+       
+        
     
         color: #4054b2;
         text-shadow: 1.5px 1.5px 1px black;
@@ -1136,6 +1357,7 @@ header h1{
         background-color: #4054b2;
         width: 100%;
         height: auto;
+        padding-bottom: 1.5em;
         
     
     
@@ -1185,7 +1407,7 @@ header h1{
     
     .container h2{
         
-        margin-top: 12%;
+        margin-top: 5%;
         text-align: center;
         word-break: break-all;
     
@@ -1198,11 +1420,15 @@ header h1{
     
     
     }
+    .box1{
+        text-align: center;
+    }
 
     .box1 form{
         padding-top: 1.5em;
         padding-left: auto;
         padding-right: auto;
+        
     }
 
 
@@ -1215,6 +1441,7 @@ header h1{
         margin-right: auto;
         width: 80%;
     }
+    
 
     .box2 h2{
         text-transform: uppercase;
@@ -1379,16 +1606,6 @@ header h1{
     
     }
 
-    /* .form1{
-        width: 50%;
-        padding-right: 0.5em;
-    }
-
-    .form2{
-        width: 50%;
-        padding-left: 0.5em;
-    } */
-
     .client{
         width: 100%;
         display: flex;
@@ -1502,6 +1719,7 @@ header h1{
 {
 
 
+
     .button-container{
         margin-top: 1.5em;
         margin-bottom: 1.5em;
@@ -1520,6 +1738,109 @@ header h1{
     }
 
 
+
+
+    .team{
+        background-color: #01425e;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        /* border:0.2em solid #01425e; */
+        
+       
+    }
+    
+    .team-image img{
+        background-size: contain;
+        width: 100%;
+    }
+    
+     
+    .team-text{
+    
+        
+        padding: 1em;
+        text-align: center;
+        
+    }
+    
+
+
+
+
+    .join-team{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+
+    .client{
+        display: flex;
+        width: 60%;
+  
+    }
+
+    .firsttwo{
+        width: 50%;
+        padding:2em;
+ 
+    }
+
+    .firsttwo h3, .lasttwo h3{
+        color: #007bff;
+        font-size: 2em;
+    }
+
+    .lasttwo{
+        width: 50%;
+        padding:2em;
+    }
+
+
+
+    .center{
+        text-align: center;
+    }
+
+
+
+    .contact{
+        font-size: 1.2em;
+        text-align: center;
+        padding: 1em;
+    }
+    
+    
+    
+    .contact2{
+        padding-top: 5em;
+        padding-left: 1em;
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 1.5em;
+     
+       
+    }
+    
+    .box6{
+        width: 100%;
+    }
+    
+    .box61{
+        width: 100%;
+        margin-bottom: 2em;
+    }
+
+    .left, .right{
+        text-align: center;
+        width: 100%;
+        padding: 0.5em;
+    }
 
     .project a{
         color: white;
@@ -1646,7 +1967,7 @@ header h1{
     .home{
         padding-left: 15em;
     }
-    
+   
     .header-bg{
         margin-top: 0;
         padding-top: 0;
@@ -1654,6 +1975,8 @@ header h1{
         width: 100%;
         height: auto;
         display: flex;
+        padding-bottom: 1.5em;
+            
     
     
     
@@ -1688,7 +2011,7 @@ header h1{
         
         display: block;
         
-            
+        
         
     }
     
