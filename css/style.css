@@ -366,7 +366,11 @@ li{
 }
 
 .fixed textarea{
-    margin-bottom: 1em;
+    margin-bottom: 2em;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .fixed a{
     text-decoration: none;
@@ -678,7 +682,11 @@ a:hover footer{
 
 
     .fixed textarea{
-        margin-bottom: 1em;
+        margin-bottom: 2em;
+        display: block;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .fixed a{
         text-decoration: none;
@@ -1266,7 +1274,11 @@ a:hover footer{
     }
 
     .fixed textarea{
-        margin-bottom: 1em;
+        margin-bottom: 2em;
+        display: block;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .fixed a{
         text-decoration: none;
@@ -1962,13 +1974,19 @@ header h1{
     }
    
     .fixed textarea{
-        margin-bottom: 1em;
+        margin-bottom: 2em;
+        display: block;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .fixed a{
         text-decoration: none;
         color: white;
         background-color: #007bff;
         padding: 1em;
+        
+
         
     }
     div.fixed{
