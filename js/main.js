@@ -96,3 +96,8 @@
 
 let age = null;
 alert(`${age}`);
+
+let firstname;
+firstname = "Ayobamidele";
+firstname = undefined;
+alert(firstname);
