@@ -95,9 +95,10 @@
 // alert(`the result of 4 > 1 is ${greater}`);
 
 let age = null;
-alert(`${age}`);
+
 
 let firstname;
 firstname = "Ayobamidele";
-firstname = undefined;
 alert(firstname);
+typeof(firstname);
+alert(typeof(firstname));
