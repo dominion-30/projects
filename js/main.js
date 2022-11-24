@@ -27,30 +27,48 @@
 // message = "World!";
 // alert(message);
 
-let hello = "Hello World!";
+// let hello = "Hello World!";
 
-    let message;
-    message = hello;
-    alert(hello);
-    alert(message);
+//     let message;
+//     message = hello;
+//     alert(hello);
+//     alert(message);
 
-let num = 5;
-alert(num);
+// let num = 5;
+// alert(num);
 
-const myBirthday = "25.03.1998";
+// const myBirthday = "25.03.1998";
 
-alert(myBirthday);
+// alert(myBirthday);
 
-let admin, name;
-name = "John";
-admin = name;
-alert(admin);
+//ask for help
 
-//user is a visitor to the site
+// let admin, name;
+// name = "John";
+// admin = name;
+// alert(admin);
 
-let earth, currentUser;
+// //user is a visitor to the site
 
-earth = "This name of our planet is Earth and is the third planet in the solar system";
+// let earth, currentUser;
 
-currentUser = "This is the user who is currently browsing the site";
-[earth,currentUser].forEach(alert);
+// earth = "This name of our planet is Earth and is the third planet in the solar system";
+
+// currentUser = "This is the user who is currently browsing the site";
+// [earth,currentUser].forEach(alert);
+
+
+let name = "Abiola";
+
+let num = 4;
+num = 3.142;
+alert(num / 0);
+
+alert(Infinity);
+
+alert("this is not a number"/5);
+alert(5 + 3);
+alert(NaN / 5 - 12);
+alert(NaN * 0);
+alert(NaN ** 0);
+
