@@ -1,11 +1,56 @@
-// alert('Hello World');
-alert("I'm JavaScript!");
+"use strict";
 
-alert ("Hello"); alert("world");
+// // alert('Hello World');
+// alert("I'm JavaScript!");
 
-alert(3 +
-    1
-    + 2);
+// alert ("Hello"); alert("world");
 
-    alert("Hello")
-    [1,2]. forEach(alert);
+// alert(3 +
+//     1
+//     + 2);
+
+//     alert("Hello")
+//     [1,2]. forEach(alert);//there is an error in this code.
+
+// let message;
+
+// message = "Where are you now?";
+
+// alert(message);
+
+// let surname = "Abiola";
+// let firstname="Ayobamidele";
+// let  othername = "Samuel";
+// [surname,firstname,othername].forEach(alert)
+
+// message = "Hello"
+// message = "World!";
+// alert(message);
+
+let hello = "Hello World!";
+
+    let message;
+    message = hello;
+    alert(hello);
+    alert(message);
+
+let num = 5;
+alert(num);
+
+const myBirthday = "25.03.1998";
+
+alert(myBirthday);
+
+let admin, name;
+name = "John";
+admin = name;
+alert(admin);
+
+//user is a visitor to the site
+
+let earth, currentUser;
+
+earth = "This name of our planet is Earth and is the third planet in the solar system";
+
+currentUser = "This is the user who is currently browsing the site";
+[earth,currentUser].forEach(alert);
