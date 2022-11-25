@@ -114,5 +114,8 @@
 // let age = prompt('how old are you?', "Enter age");
 // alert(`I am ${age} years old`);
 
-let answer = confirm(`${3>4}`);
-alert(`the result of 3 > 4 is ${answer}`);
+// let answer = confirm(`${3>4}`);
+// alert(`the result of 3 > 4 is ${answer}`);
+
+let fullname = prompt("What is your name?" ,"Enter full name");
+alert(`You entered ${fullname}`);
