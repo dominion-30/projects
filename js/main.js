@@ -94,11 +94,25 @@
 // let greater = 4 > 1;
 // alert(`the result of 4 > 1 is ${greater}`);
 
-let age = null;
+// let age = null;
 
 
-let firstname;
-firstname = "Ayobamidele";
-alert(firstname);
-typeof(firstname);
-alert(typeof(firstname));
+// let firstname;
+// firstname = "Ayobamidele";
+// alert(firstname);
+// typeof(firstname);
+// alert(typeof(firstname));
+
+// alert(typeof(x));
+
+// let name = "Ilya";
+// alert(`hello ${1}`);
+// alert(`hello ${"name"}`);
+// alert(`hello ${name}`);
+
+// alert("Hello");
+// let age = prompt('how old are you?', "Enter age");
+// alert(`I am ${age} years old`);
+
+let answer = confirm(`${3>4}`);
+alert(`the result of 3 > 4 is ${answer}`);
