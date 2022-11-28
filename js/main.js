@@ -117,5 +117,48 @@
 // let answer = confirm(`${3>4}`);
 // alert(`the result of 3 > 4 is ${answer}`);
 
-let fullname = prompt("What is your name?" ,"Enter full name");
-alert(`You entered ${fullname}`);
+// let fullname = prompt("What is your name?" ,"Enter full name");
+// alert(`You entered ${fullname}`);
+
+// let num, firstname;
+// num = 1
+// firstname = "Ayobamidele";
+// alert(typeof firstname);
+
+// let value = true;
+// alert(typeof value);
+
+// value  = string(value);
+// alert(value);
+// let value = false;
+// alert(typeof value);
+
+// value = String(value);
+// alert(typeof value);
+// alert(`The data type of '6' and '2' is ${typeof "6"} and ${typeof "2"} respectively`);
+// alert("6" / "2");
+
+// let str = "123";
+// alert(`the datatype of '123' is ${typeof str}`);
+
+// str = Number(str);
+// alert(`the datatype of '123' is now ${typeof(str)}`);
+
+// let age = "this an arbitrary age instead of a number";
+// alert(typeof age);
+// age = Number(age);
+// alert(typeof age);
+// alert(age);
+
+// let firstname = " ";
+// alert(typeof firstname);
+// firstname = Boolean(firstname);
+// alert(`the datatype of firstname is ${firstname}`);
+
+// let x = 1;
+// alert(x);
+// x = -x;
+// alert(x);
+
+let x = 1, y = 3;
+alert(y - x);
