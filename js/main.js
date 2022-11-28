@@ -160,5 +160,66 @@
 // x = -x;
 // alert(x);
 
-let x = 1, y = 3;
-alert(y - x);
+// let x = 1, y = 3;
+// alert(y - x);
+
+// alert(5%2);
+// alert(8%3);
+// alert(8%4);
+// alert(2**2);
+// alert(2**6);
+
+// alert(1/3);
+
+// alert(4**(1/2));
+// let age;
+// let fullname = prompt("What is your full name?", "Enter full name");
+// age = prompt('How old are you?', "Enter age");
+// let userString = "my" + " age is " + age;
+// alert(`My full name is ${fullname}`);
+// alert(userString);
+
+// alert("1" + 2);
+
+
+// let a = "6";
+// let b = "3";
+// let result = a / b;
+
+// alert(result);
+// alert(typeof(result));
+
+
+// let x = 1;
+// alert(x);
+// alert(typeof(x));
+
+// x = +x;
+// alert(typeof(x));
+// alert(x);
+
+// let y = -2;
+// y = +y;
+// alert(y);
+// alert(typeof(y));
+// alert(y);
+
+// let orange, apple;
+// let result;
+// orange= '2';
+// apple='3';
+// alert(orange);
+// alert(apple);
+
+// result = orange + apple;
+// alert(result);
+// result = Number(orange) + Number(apple);
+// alert(result);
+
+let x = 2 * 2 + 1;
+alert(x);
+
+let a = 1;
+let b = 2;
+let c = a + b;
+alert(c);
